@@ -1,0 +1,38 @@
+# Flutter/Dart-specific
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+.idea/
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.iml
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS/iOS (ignore if not building for iOS/macOS)
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+macos/
+
+# Windows/Linux (optional)
+windows/
+linux/
+
+# Logs and crash reports
+*.log
+pubspec.lock
+
+# Firebase or other sensitive env files
+.env
+.env.*
+
+# Personal settings
+*.DS_Store
+*.swp
